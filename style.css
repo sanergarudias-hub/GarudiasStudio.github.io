@@ -38,21 +38,38 @@ p{
 
 }
 
-button{
+.cta-button{
+
+    display:inline-block;
 
     margin-top:40px;
 
-    padding:15px 40px;
+    padding:18px 45px;
 
-    font-size:20px;
+    background:#00C853;
 
-    border:none;
+    color:white;
 
-    border-radius:10px;
+    text-decoration:none;
 
-    cursor:pointer;
+    font-size:22px;
+
+    font-weight:bold;
+
+    border-radius:12px;
+
+    transition:0.3s;
 
 }
+
+.cta-button:hover{
+
+    background:#00A844;
+
+    transform:scale(1.05);
+
+}
+
 .subtitle{
 
     font-size:30px;
